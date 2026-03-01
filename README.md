@@ -1,9 +1,10 @@
-Kisan Bandhu
+# Kisan Bandhu  
+## Smart Crop Advisory & Local Marketplace Platform  
+### Team ANTS  
 
-Smart Crop Advisory & Local Marketplace Platform
-Team ANTS
+---
 
-About the Project
+## About the Project
 
 Kisan Bandhu is a Smart Crop Advisory and Local Marketplace platform designed to support farmers in making informed agricultural decisions.
 
@@ -11,74 +12,66 @@ The platform provides rule-based crop recommendations, farming guidance, governm
 
 It focuses on clarity, accessibility, and structured implementation using a modular design.
 
-Problem Statement
+---
+
+## Problem Statement
 
 Many farmers face challenges such as:
 
-Difficulty selecting suitable crops based on soil type, season, rainfall, and region
-
-Limited awareness of government schemes and MSP information
-
-Lack of direct market access
-
-Dependence on informal intermediaries
+- Difficulty selecting suitable crops based on soil type, season, rainfall, and region  
+- Limited awareness of government schemes and MSP information  
+- Lack of direct market access  
+- Dependence on informal intermediaries  
 
 These issues often lead to inefficient crop planning and reduced profitability.
 
-Proposed Solution
+---
+
+## Proposed Solution
 
 Kisan Bandhu is a rule-based agricultural decision-support system that provides:
 
-Crop recommendations based on soil, season, rainfall, and region
-
-Basic irrigation and fertilizer guidance
-
-Government scheme awareness and MSP information
-
-A simple farmer-to-buyer local marketplace
+- Crop recommendations based on soil, season, rainfall, and region  
+- Basic irrigation and fertilizer guidance  
+- Government scheme awareness and MSP information  
+- A simple farmer-to-buyer local marketplace  
 
 The system is designed to be practical, structured, and easy to use.
 
-Key Features
+---
 
-Rule-Based Crop Recommendation Engine
+## Key Features
 
-Risk Alerts and Basic Farming Guidance
+- Rule-Based Crop Recommendation Engine  
+- Risk Alerts and Basic Farming Guidance  
+- Government Schemes Information Section  
+- Minimum Support Price (MSP) Awareness  
+- Farmer-to-Buyer Listing Module  
+- Simple and User-Friendly Interface  
 
-Government Schemes Information Section
+---
 
-Minimum Support Price (MSP) Awareness
+## Tech Stack
 
-Farmer-to-Buyer Listing Module
+### Frontend
+- HTML  
+- CSS  
+- JavaScript  
 
-Simple and User-Friendly Interface
+### Data Handling
+- JSON (Crop and configuration data)  
+- LocalStorage (Marketplace listing storage – initial version)  
 
-Tech Stack
-Frontend
+### Backend
+- Python Flask  
 
-HTML
+### Version Control
+- Git  
+- GitHub  
 
-CSS
+---
 
-JavaScript
-
-Data Handling
-
-JSON (Crop and configuration data)
-
-LocalStorage (Marketplace listing storage – initial version)
-
-Backend
-
-Python Flask
-
-Version Control
-
-Git
-
-GitHub
-
-Project Structure
+## Project Structure
 kisan-bandhu/
 │
 ├── index.html
@@ -88,45 +81,35 @@ kisan-bandhu/
 ├── style.css
 ├── script.js
 ├── data/
-│   └── crops.json
+│ └── crops.json
 ├── README.md
 └── LICENSE
-Impact
+
+
+---
+
+## Impact
 
 Kisan Bandhu aims to:
 
-Improve crop decision-making for farmers
-
-Increase awareness of government agricultural schemes
-
-Provide easier market access to small-scale farmers
-
-Reduce dependency on intermediaries
-
-Encourage digital adoption in rural agriculture
+- Improve crop decision-making for farmers  
+- Increase awareness of government agricultural schemes  
+- Provide easier market access to small-scale farmers  
+- Reduce dependency on intermediaries  
+- Encourage digital adoption in rural agriculture  
 
 By combining advisory logic with marketplace functionality, the platform promotes informed and structured agricultural planning.
 
-Future Enhancements
+---
 
-Integration with real-time weather APIs
+## Future Enhancements
 
-Real-time mandi price data integration
+- Integration with real-time weather APIs  
+- Real-time mandi price data integration  
+- User authentication system for farmers and buyers  
+- Secure messaging between farmers and buyers  
+- Regional language support  
+- Mobile-responsive UI improvements  
+- Deployment as a Progressive Web App (PWA)  
 
-User authentication system for farmers and buyers
-
-Secure messaging between farmers and buyers
-
-Regional language support
-
-Mobile-responsive UI improvements
-
-Deployment as a Progressive Web App (PWA)
-
-License
-
-This project is licensed under the MIT License.
-
-Team
-
-Developed by Team ANTS
+---
